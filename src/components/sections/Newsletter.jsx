@@ -1,7 +1,7 @@
 import React from "react";
 
 const Newsletter = () => (
-  <section className="py-16 lg:py-24 bg-teal text-white">
+  <section className="py-16 lg:py-24 bg-gradient-to-r from-primary to-secondary text-white">
     <div className="max-w-7xl mx-auto px-6 lg:px-12">
       <div className="flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1 flex justify-center">
@@ -24,7 +24,7 @@ const Newsletter = () => (
               placeholder="Enter your email"
               className="flex-1 px-6 py-4 rounded-lg text-neutral-dark focus:outline-none focus:ring-2 focus:ring-accent"
             />
-            <button className="bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-lg font-semibold transition-colors whitespace-nowrap">
+            <button className="bg-accent hover:bg-teal text-white px-8 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl whitespace-nowrap">
               Subscribe
             </button>
           </div>

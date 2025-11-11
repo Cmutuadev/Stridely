@@ -20,7 +20,7 @@ const About = () => (
           </p>
           <div className="space-y-4">
             <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-teal rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+              <div className="w-6 h-6 bg-accent rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                 <span className="text-white text-xs">✓</span>
               </div>
               <div>
@@ -29,7 +29,7 @@ const About = () => (
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-teal rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+              <div className="w-6 h-6 bg-accent rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                 <span className="text-white text-xs">✓</span>
               </div>
               <div>

@@ -45,14 +45,14 @@ const Products = () => {
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100">
                     <button
                       onClick={() => addToCart(product, id)}
-                      className="p-3 rounded-full bg-white text-primary shadow-lg hover:bg-accent hover:text-white transition"
+                      className="p-3 rounded-full bg-white text-primary shadow-lg hover:bg-accent hover:text-white transition-all"
                       aria-label="Add to cart"
                     >
                       <BiCartAdd className="text-xl" />
                     </button>
                     <Link to={`/product/${id}`}>
                       <button
-                        className="p-3 rounded-full bg-white text-primary shadow-lg hover:bg-teal hover:text-white transition"
+                        className="p-3 rounded-full bg-white text-primary shadow-lg hover:bg-secondary hover:text-white transition-all"
                         aria-label="View details"
                       >
                         <FaEye className="text-xl" />

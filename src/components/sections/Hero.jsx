@@ -2,7 +2,7 @@ import React from "react";
 import heroShoeImg from "../../assets/nike-hero.png";
 
 const Hero = () => (
-  <section className="w-full bg-neutral-dark text-white">
+  <section className="w-full bg-gradient-to-br from-primary via-neutral-dark to-secondary text-white">
     <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16 lg:py-24">
       <div className="flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1 space-y-6">
@@ -19,7 +19,7 @@ const Hero = () => (
           <p className="text-neutral-light/80 text-lg max-w-lg">
             Discover premium sneakers that blend comfort, style, and performance. From street classics to athletic innovation, find your perfect stride.
           </p>
-          <button className="bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-lg font-semibold transition-colors">
+          <button className="bg-accent hover:bg-secondary text-white px-8 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl">
             Shop Now
           </button>
         </div>
