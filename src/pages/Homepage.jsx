@@ -1,17 +1,23 @@
 import React from "react";
 import Hero from "../components/sections/Hero";
-import Features from "../components/sections/Features";
+import StatsBar from "../components/sections/StatsBar";
 import About from "../components/sections/About";
-import Product from "../components/sections/Product";
-import Contact from "../components/sections/Contact";
+import Categories from "../components/sections/Categories";
+import Featured from "../components/sections/Featured";
+import Products from "../components/sections/Products";
+import Testimonials from "../components/sections/Testimonials";
+import Newsletter from "../components/sections/Newsletter";
 
 const Homepage = () => (
   <>
     <Hero />
-    <Features />
+    <StatsBar />
     <About />
-    <Product />
-    <Contact />
+    <Categories />
+    <Featured />
+    <Products />
+    <Testimonials />
+    <Newsletter />
   </>
 );
 

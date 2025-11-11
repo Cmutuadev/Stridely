@@ -1,15 +1,45 @@
 import React from "react";
 
 const About = () => (
-  <section id="about" className="py-16 bg-white">
-    <div className="max-w-5xl mx-auto px-4 text-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">About Stridely Kicks</h2>
-      <p className="text-lg text-neutral-dark/80 mb-4">
-        Founded by sneaker fans for sneaker fans, Stridely Kicks brings you unbeatable selection, expert curation, and honest passion for what’s next in footwear. Every pair is chosen to deliver premium style, comfort, and value.
-      </p>
-      <p className="text-neutral-dark/60">
-        Whether you’re chasing the hottest releases or just looking for everyday kicks, our team lives for sneakers and puts care into every drop. Welcome to your new go-to shoe destination.
-      </p>
+  <section className="py-16 lg:py-24 bg-white">
+    <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="flex flex-col lg:flex-row items-center gap-12">
+        <div className="flex-1">
+          <img
+            src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&q=80"
+            alt="Premium sneakers display"
+            className="w-full h-[400px] object-cover rounded-lg"
+          />
+        </div>
+        <div className="flex-1 space-y-6">
+          <h2 className="text-3xl lg:text-4xl font-bold text-primary">
+            We Create Your Style<br />More Authentic
+          </h2>
+          <p className="text-neutral-dark/70 leading-relaxed">
+            At Stridely, we believe every step tells a story. Our curated collection brings together the finest sneakers from iconic brands and emerging designers, ensuring you find the perfect pair that matches your unique style and lifestyle.
+          </p>
+          <div className="space-y-4">
+            <div className="flex items-start gap-3">
+              <div className="w-6 h-6 bg-teal rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-white text-xs">✓</span>
+              </div>
+              <div>
+                <h3 className="font-semibold text-primary mb-1">Premium Quality Materials</h3>
+                <p className="text-sm text-neutral-dark/60">Handpicked sneakers crafted with the finest materials for lasting comfort and durability.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="w-6 h-6 bg-teal rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-white text-xs">✓</span>
+              </div>
+              <div>
+                <h3 className="font-semibold text-primary mb-1">Authentic Designs</h3>
+                <p className="text-sm text-neutral-dark/60">100% authentic sneakers from verified brands and authorized retailers worldwide.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 );

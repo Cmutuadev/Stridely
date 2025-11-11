@@ -1,54 +1,86 @@
 import React from "react";
-import { BsInstagram, BsTwitterX } from "react-icons/bs";
+import { BsInstagram, BsTwitterX, BsYoutube, BsLinkedin } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-dark text-neutral-light pt-12 pb-6">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-8 border-b border-accent pb-8">
-        <div className="col-span-2 flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-primary">Stridely</h2>
-          <p className="text-sm text-neutral-light/80">
-            Step Up Your Game. Top sneakers, quality, and comfort.
-          </p>
-          <div className="flex gap-4 mt-2">
-            <a href="https://facebook.com" aria-label="Facebook">
-              <FaFacebook className="text-xl hover:text-accent" />
+    <footer className="bg-neutral-dark text-neutral-light">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-8">
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Our Products</h3>
+            <ul className="space-y-2 text-sm text-neutral-light/70">
+              <li><a href="#" className="hover:text-accent transition">Running Shoes</a></li>
+              <li><a href="#" className="hover:text-accent transition">Basketball</a></li>
+              <li><a href="#" className="hover:text-accent transition">Lifestyle</a></li>
+              <li><a href="#" className="hover:text-accent transition">Training</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Resources</h3>
+            <ul className="space-y-2 text-sm text-neutral-light/70">
+              <li><a href="#" className="hover:text-accent transition">Size Guide</a></li>
+              <li><a href="#" className="hover:text-accent transition">Care Tips</a></li>
+              <li><a href="#" className="hover:text-accent transition">Blog</a></li>
+              <li><a href="#" className="hover:text-accent transition">Reviews</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Company</h3>
+            <ul className="space-y-2 text-sm text-neutral-light/70">
+              <li><a href="#" className="hover:text-accent transition">About Us</a></li>
+              <li><a href="#" className="hover:text-accent transition">Careers</a></li>
+              <li><a href="#" className="hover:text-accent transition">Press</a></li>
+              <li><a href="#" className="hover:text-accent transition">Partners</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Support</h3>
+            <ul className="space-y-2 text-sm text-neutral-light/70">
+              <li><a href="#" className="hover:text-accent transition">Contact Us</a></li>
+              <li><a href="#" className="hover:text-accent transition">FAQs</a></li>
+              <li><a href="#" className="hover:text-accent transition">Shipping</a></li>
+              <li><a href="#" className="hover:text-accent transition">Returns</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Privacy & Terms</h3>
+            <ul className="space-y-2 text-sm text-neutral-light/70">
+              <li><a href="#" className="hover:text-accent transition">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-accent transition">Terms of Service</a></li>
+              <li><a href="#" className="hover:text-accent transition">Cookie Policy</a></li>
+              <li><a href="#" className="hover:text-accent transition">Accessibility</a></li>
+            </ul>
+          </div>
+        </div>
+        <div className="border-t border-neutral-light/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+              <span className="text-xl">👟</span>
+            </div>
+            <span className="font-bold text-white">Stridely</span>
+          </div>
+          <div className="flex gap-4">
+            <a href="#" className="text-neutral-light/70 hover:text-accent transition" aria-label="Facebook">
+              <FaFacebook className="text-xl" />
             </a>
-            <a href="https://instagram.com" aria-label="Instagram">
-              <BsInstagram className="text-xl hover:text-accent" />
+            <a href="#" className="text-neutral-light/70 hover:text-accent transition" aria-label="Instagram">
+              <BsInstagram className="text-xl" />
             </a>
-            <a href="https://twitter.com" aria-label="Twitter">
-              <BsTwitterX className="text-xl hover:text-accent" />
+            <a href="#" className="text-neutral-light/70 hover:text-accent transition" aria-label="Twitter">
+              <BsTwitterX className="text-xl" />
+            </a>
+            <a href="#" className="text-neutral-light/70 hover:text-accent transition" aria-label="YouTube">
+              <BsYoutube className="text-xl" />
+            </a>
+            <a href="#" className="text-neutral-light/70 hover:text-accent transition" aria-label="LinkedIn">
+              <BsLinkedin className="text-xl" />
             </a>
           </div>
         </div>
-        <div className="col-span-3 grid grid-cols-2 md:grid-cols-3 gap-4">
-          <ul>
-            <li className="font-semibold mb-2">Shop</li>
-            <li><a href="#" className="hover:text-accent">New Arrivals</a></li>
-            <li><a href="#" className="hover:text-accent">Men</a></li>
-            <li><a href="#" className="hover:text-accent">Women</a></li>
-            <li><a href="#" className="hover:text-accent">Sale</a></li>
-          </ul>
-          <ul>
-            <li className="font-semibold mb-2">About</li>
-            <li><a href="#" className="hover:text-accent">Our Story</a></li>
-            <li><a href="#" className="hover:text-accent">Press</a></li>
-            <li><a href="#" className="hover:text-accent">Careers</a></li>
-            <li><a href="#" className="hover:text-accent">Blog</a></li>
-          </ul>
-          <ul>
-            <li className="font-semibold mb-2">Support</li>
-            <li><a href="#" className="hover:text-accent">Contact</a></li>
-            <li><a href="#" className="hover:text-accent">FAQs</a></li>
-            <li><a href="#" className="hover:text-accent">Shipping & Returns</a></li>
-            <li><a href="#" className="hover:text-accent">Accessibility</a></li>
-          </ul>
+        <div className="text-center mt-8 text-sm text-neutral-light/50">
+          <p>© {new Date().getFullYear()} Stridely. All rights reserved.</p>
         </div>
-      </div>
-      <div className="max-w-7xl mx-auto text-center mt-8 text-xs text-neutral-light/60">
-        <p>© {new Date().getFullYear()} Stridely. All rights reserved.</p>
       </div>
     </footer>
   );
