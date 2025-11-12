@@ -8,7 +8,7 @@ const Newsletter = () => (
           <img
             src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600&q=80"
             alt="Exclusive sneaker offer"
-            className="w-64 h-64 object-contain drop-shadow-2xl"
+            className="w-56 h-56 object-contain drop-shadow-2xl"
           />
         </div>
         <div className="flex-1 space-y-6">

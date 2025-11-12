@@ -23,11 +23,11 @@ const Hero = () => (
             Shop Now
           </button>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 flex justify-center items-center">
           <img
             src={heroShoeImg}
             alt="Featured sneaker collection"
-            className="w-full h-auto object-contain"
+            className="w-full max-w-lg h-auto object-contain drop-shadow-2xl"
           />
         </div>
       </div>

@@ -32,7 +32,7 @@ const Testimonials = () => (
           <img
             src="https://images.unsplash.com/photo-1556906781-9cba4df2f5c0?w=800&q=80"
             alt="Happy customer with sneakers"
-            className="w-full h-[350px] object-cover rounded-lg"
+            className="w-full h-[400px] object-cover rounded-lg shadow-lg"
           />
         </div>
       </div>

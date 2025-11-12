@@ -34,13 +34,13 @@ const Products = () => {
             return (
               <div
                 key={id}
-                className="bg-neutral-light rounded-lg overflow-hidden group hover:shadow-lg transition-shadow"
+                className="bg-white rounded-lg overflow-hidden group hover:shadow-xl transition-all border border-neutral-light"
               >
-                <div className="relative overflow-hidden bg-white">
+                <div className="relative overflow-hidden bg-neutral-light">
                   <img
                     src={image}
                     alt={title}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-56 object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100">
                     <button
@@ -60,9 +60,12 @@ const Products = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="p-4">
-                  <h3 className="text-sm font-semibold text-primary mb-2 line-clamp-2">{title}</h3>
-                  <p className="text-lg font-bold text-accent">${price}</p>
+                <div className="p-4 bg-white">
+                  <h3 className="text-sm font-medium text-neutral-dark mb-2 line-clamp-2 h-10">{title}</h3>
+                  <div className="flex items-center justify-between">
+                    <p className="text-xl font-bold text-primary">${price}</p>
+                    <span className="text-xs text-neutral-dark/50">In Stock</span>
+                  </div>
                 </div>
               </div>
             );
