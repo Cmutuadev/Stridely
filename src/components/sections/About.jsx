@@ -8,7 +8,7 @@ const About = () => (
           <img
             src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&q=80"
             alt="Premium sneakers display"
-            className="w-full h-[320px] object-cover rounded-lg shadow-lg"
+            className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
         </div>
         <div className="flex-1 space-y-6">

@@ -43,7 +43,7 @@ const Categories = () => (
             <img
               src={category.image}
               alt={category.name}
-              className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+              className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
               <h3 className="text-white text-xl font-semibold">{category.name}</h3>

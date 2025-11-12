@@ -7,9 +7,9 @@ import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart/Cart";
 
 const App = () => (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-neutral-light">
     <Navbar />
-    <main className="flex-grow">
+    <main className="flex-grow bg-neutral-light">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/product/:id" element={<ProductDetails />} />
