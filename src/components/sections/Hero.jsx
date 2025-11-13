@@ -14,10 +14,10 @@ const Hero = () => (
           </div>
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
             Step Into Style<br />
-            <span className="text-accent">Elevate Your Sneaker Game</span>
+            <span className="text-accent">Elevate Your Game</span>
           </h1>
           <p className="text-neutral-light/80 text-lg max-w-lg">
-            Discover premium sneakers that blend comfort, style, and performance. From street classics to athletic innovation, find your perfect stride.
+            Discover premium sneakers from top brands. Whether you're hitting the gym, the court, or the streets, we've got the perfect pair for your lifestyle.
           </p>
           <button className="bg-accent hover:bg-secondary text-white px-8 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl">
             Shop Now
