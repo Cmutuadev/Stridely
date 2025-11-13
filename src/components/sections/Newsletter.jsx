@@ -12,12 +12,12 @@ const Newsletter = () => (
           />
         </div> */}
         <div className="flex-1 space-y-6">
-          {/* <h2 className="text-3xl lg:text-4xl font-bold">
+          <h2 className="text-3xl lg:text-4xl font-bold">
             Get more discount<br />Off your order
           </h2>
           <p className="text-white/90">
             Join our newsletter and get exclusive access to new releases, special promotions, and insider deals.
-          </p> */}
+          </p> 
           <div className="flex flex-col sm:flex-row gap-3">
             <input
               type="email"
