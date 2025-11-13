@@ -30,7 +30,7 @@ const Testimonials = () => (
         </div>
         <div className="flex-1">
           <img
-            src="https://images.unsplash.com/photo-1556906781-9cba4df2f5c0?w=800&q=80"
+            src="https://images.unsplash.com/photo-1634000102944-f359d9385a0d?w=800&h=200&fit=crop&q=80"
             alt="Happy customer with sneakers"
             className="w-full h-56 object-cover rounded-lg shadow-lg"
           />
