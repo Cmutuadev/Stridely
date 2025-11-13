@@ -1,6 +1,9 @@
 # Stridely - Premium Sneaker E-Commerce
 
 A modern, responsive sneaker e-commerce landing page built with React, Vite, and Tailwind CSS.
+Access the demo here
+
+https://stridely-shop.netlify.app
 
 ## 🚀 Features
 
@@ -68,11 +71,5 @@ Unit tests are written using Vitest and Testing Library:
 ```bash
 npm test
 ```
-
-## 📝 License
-
-This project is for educational purposes.
-
-## 👤 Author
 
 Built with ❤️ for learning React and modern web development.
