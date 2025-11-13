@@ -4,6 +4,7 @@ const About = () => (
   <section className="py-16 lg:py-24 bg-white">
     <div className="max-w-7xl mx-auto px-6 lg:px-12">
       <div className="flex flex-col lg:flex-row items-center gap-12">
+        {/* 
         <div className="flex-1">
           <img
             src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&q=80"
@@ -11,6 +12,7 @@ const About = () => (
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
         </div>
+        */}
         <div className="flex-1 space-y-6">
           <h2 className="text-3xl lg:text-4xl font-bold text-primary">
             We Create Your Style<br />More Authentic
