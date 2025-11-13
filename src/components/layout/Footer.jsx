@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-primary via-neutral-dark to-primary text-neutral-light">
+    <footer className="bg-neutral-900 text-neutral-light">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-8">
           <div>
