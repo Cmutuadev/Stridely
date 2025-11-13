@@ -44,12 +44,11 @@ npm test
 
 ## 🎨 Color Palette
 
-- **Primary:** `#0f172a` (Dark Blue)
-- **Secondary:** `#1e40af` (Royal Blue)
-- **Accent:** `#3b82f6` (Bright Blue)
+- **Primary:** `#1e293b` (Slate Blue-Black)
+- **Secondary:** `#2563eb` (Vivid Blue)
+- **Accent:** `#60a5fa` (Soft Blue)
 - **Neutral Dark:** `#0a0f1e`
-- **Neutral Light:** `#f8fafc`
-
+- **Neutral Light:** `#f1f5f9`
 ## 📁 Project Structure
 
 ```
