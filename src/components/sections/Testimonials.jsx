@@ -29,8 +29,9 @@ const Testimonials = () => (
           </div>
         </div>
         <div className="flex-1">
+          <p className="mb-2 text-center text-neutral-dark">Happy customer with sneakers</p>  {/* Caption */}
           <img
-            src="https://images.unsplash.com/photo-1634000102944-f359d9385a0d?w=800&h=200&fit=crop&q=80"
+            src="https://images.unsplash.com/photo-1634000102944-f359d9385a0d?w=800&q=80"
             alt="Happy customer with sneakers"
             className="w-full h-56 object-cover rounded-lg shadow-lg"
           />
