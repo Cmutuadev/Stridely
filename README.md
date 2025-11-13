@@ -1,7 +1,8 @@
 # Stridely - Premium Sneaker E-Commerce
 
 A modern, responsive sneaker e-commerce landing page built with React, Vite, and Tailwind CSS.
-Access the demo here
+
+## Access the demo here
 
 https://stridely-shop.netlify.app
 
