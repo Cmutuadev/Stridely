@@ -4,7 +4,7 @@ A modern, responsive sneaker e-commerce landing page built with React, Vite, and
 
 ## Access the demo here
 
-https://stridely-shop.netlify.app
+https://stridely-store.netlify.app/
 
 ## 🚀 Features
 
