@@ -8,7 +8,7 @@ const About = () => (
         {/* Left image */}
         <div className="flex-1">
           <img
-            src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&q=80"
+            src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600&q=80"
             alt="Premium sneakers display"
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
@@ -20,7 +20,7 @@ const About = () => (
             We Create Your Style<br />More Authentic
           </h2>
           <p className="text-neutral-dark/70 leading-relaxed">
-            At Stridely, we believe every step tells a story. Our curated collection brings together the finest sneakers from iconic brands and emerging designers, ensuring you find the perfect pair that matches your unique style and lifestyle.
+            At Stridely, we believe every step tells a story. Our curated collection brings together the finest sneak>
           </p>
 
           <div className="space-y-4">
@@ -30,7 +30,7 @@ const About = () => (
               </div>
               <div>
                 <h3 className="font-semibold text-primary mb-1">Premium Quality Materials</h3>
-                <p className="text-sm text-neutral-dark/60">Handpicked sneakers crafted with the finest materials for lasting comfort and durability.</p>
+                <p className="text-sm text-neutral-dark/60">Handpicked sneakers crafted with the finest materials for>
               </div>
             </div>
 
@@ -40,7 +40,7 @@ const About = () => (
               </div>
               <div>
                 <h3 className="font-semibold text-primary mb-1">Authentic Designs</h3>
-                <p className="text-sm text-neutral-dark/60">100% authentic sneakers from verified brands and authorized retailers worldwide.</p>
+                <p className="text-sm text-neutral-dark/60">100% authentic sneakers from verified brands and authoriz>
               </div>
             </div>
           </div>
