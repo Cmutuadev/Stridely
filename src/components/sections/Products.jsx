@@ -28,7 +28,7 @@ const Products = () => {
             Explore our complete collection of premium sneakers. From classic designs to the latest innovations, find your perfect pair.
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {displayProducts.map((product) => {
             const { id, image, title, price } = product;
             return (
