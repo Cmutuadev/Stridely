@@ -20,3 +20,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #1e40af;
 }
+.bg {
+  background-color: #ff8040;
+}
