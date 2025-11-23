@@ -1,24 +1,26 @@
 import React from "react";
 
 const StatsBar = () => (
-  <section className="w-full bg-white py-8">
-    <div className="max-w-4xl mx-auto px-4 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-rows-3 lg:grid-rows-3">
-      {/* Box 1 */}
-      <div className="bg-gray-50 rounded-xl shadow-lg py-6 px-4 flex flex-col items-center justify-center border">
-        <div className="text-2xl font-bold text-primary mb-1">7+</div>
-        <div className="text-gray-600 text-sm font-medium">Years Experience</div>
+  <section className="w-[95%] bg mx-auto rounded-[10px] shadow-lg py-6 md:py-8 lg:py-10 -mt-12 mb-2 ">
+   <div className='  rounded-lg md:w-auto lg:w-auto   -mt-2 mb-2 lg:mx-2 relative z-20 p-4 md:p-6 grid grid-cols-4 md:grid-cols-4 gap-0 items-center'>
+        <div className="text-center p-4 border-r-2  border-(--text-color)">
+          <h5 className="text-2xl md:text-3xl font-bold">7+</h5>
+          <p className="text-sm md:text-base">year experience</p>
+        </div>
+        <div className="text-center p-4 md:border-r-2  border-(--text-color)">
+          <h5 className="text-2xl md:text-3xl font-bold">2+</h5>
+          <p className="text-sm md:text-base">Country Worldwide</p>
+        </div>
+        <div className="text-center md:border-l-2 p-4 border-l-2 border-(--text-color)">
+          <h5 className="text-2xl md:text-3xl font-bold">1k+</h5>
+          <p className="text-sm md:text-base">Sneaker solds</p>
+        </div>
+        <div className="text-center md:border-l-2 p-4 border-l-2 border-(--text-color)">
+          <h5 className="text-2xl md:text-3xl font-bold">260+</h5>
+          <p className="text-sm md:text-base">Sneaker Brands</p>
+        </div>
       </div>
-      {/* Box 2 */}
-      <div className="bg-gray-50 rounded-xl shadow-lg py-6 px-4 flex flex-col items-center justify-center border">
-        <div className="text-2xl font-bold text-primary mb-1">2+</div>
-        <div className="text-gray-600 text-sm font-medium">Country Worldwide</div>
-      </div>
-      {/* Box 3 */}
-      <div className="bg-gray-50 rounded-xl shadow-lg py-6 px-4 flex flex-col items-center justify-center border">
-        <div className="text-2xl font-bold text-primary mb-1">100+</div>
-        <div className="text-gray-600 text-sm font-medium">Sneaker Brands</div>
-      </div>
-    </div>
+
   </section>
 );
 
