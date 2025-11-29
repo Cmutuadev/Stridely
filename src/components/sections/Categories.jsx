@@ -24,29 +24,30 @@ const categories = [
 ];
 
 const Categories = () => (
-  <section className="py-16 lg:py-24 bg-neutral-light">
-    <div className="max-w-7xl mx-auto px-6 lg:px-12">
+  // *** MAJOR CHANGE: Increased vertical padding to py-32 (padding-top and padding-bottom) ***
+  <section className="my-300 bg-neutral-light ">
+    <div className=" flex flex-row items-center">
       <div className="mb-12">
-        <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
+        <h2 className="text-fit lg:text-4xl font-bold text-primary mb-4">
           New In<br />Store Now
         </h2>
         <p className="text-neutral-dark/60 max-w-md">
           Get the latest drops and exclusive releases from top brands. Limited stock available.
         </p>
       </div>
-      <div className="grid grid-cols-4 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-6 ml-12">
         {categories.map((category) => (
           <div
             key={category.id}
-            className="group relative overflow-hidden rounded-lg cursor-pointer shadow-md hover:shadow-xl transition-all"
+            className="w-full aspect-square group relative rounded-lg cursor-pointer shadow-md hover:shadow-xl transition-all overflow-hidden" 
           >
             <img
               src={category.image}
               alt={category.name}
-              className="w-fit h-40 object-cover group-hover:scale-110 transition-transform duration-300"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-              <h3 className="text-white text-xl font-semibold">{category.name}</h3>
+            <div className="absolute inset-0 bg-black bg-opacity-30 flex items-end p-4"> 
+              <h3 className="text-white text-base font-semibold">{category.name}</h3>
             </div>
           </div>
         ))}
