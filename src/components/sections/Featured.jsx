@@ -1,11 +1,11 @@
 import React from "react";
 
 const Featured = () => (
-  <section className="py-16 lg:py-24 bg-white">
-    <div className="max-w-7xl mx-auto px-6 lg:px-12">
-      <div className="flex flex-col lg:flex-row items-center gap-12">
-        <div className="flex-1 space-y-6">
-          <h2 className="text-3xl lg:text-4xl font-bold text-primary">
+  <section className="py-1 lg:py-24 bg-white">
+    <div className=" flex flex-row items-center">
+      <div className=" flex flex-row items-center gap-12 max-w-fit mx-auto px-7 lg:px-1">
+        <div className="">
+          <h2 className="text-fit lg:text-fit font-bold text-primary flex flex-row items-center">
             The Best Sneaker<br />Retailer of Your Choice
           </h2>
           <p className="text-neutral-dark/70 leading-relaxed">
@@ -19,7 +19,7 @@ const Featured = () => (
           <img
             src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800&q=80"
             alt="Sneaker collection showcase"
-            className="w-full h-64 object-cover rounded-lg shadow-lg"
+            className="w-fit h-64 object-cover rounded-lg shadow-lg flex flex-row items-center"
           />
         </div>
       </div>
